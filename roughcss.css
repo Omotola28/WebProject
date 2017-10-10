@@ -1,0 +1,82 @@
+/*more{
+	 display: inline-block;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 200px;
+    background-color: #ffbc4e;
+    text-align: center;
+    font-family: inherit;
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.more span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: medium;
+}
+
+.more span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: -2px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.more:hover span {
+  padding-right: 15px;
+}
+
+.more:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.extra{
+  display:none;
+  position:absolute;
+  width:70%;
+  z-index: 20;
+}
+
+.newbox:hover .extra {
+  display:block;
+  position:absolute;
+  top:16em;
+  background-color: #fff;
+}
+
+/*
+.card-content:hover .extra {
+    display: block;
+    min-width: 100%;
+}
+
+
+ .cards:hover .card-content:hover{
+ 	flex: 0 1 100%;
+}
+*/
+
+    border: 1px solid #ffba49;
+    width: 80%;
+    margin: 2em 4em;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffbc4e;
+    max-width: 80%;
+    resize: none;
+
+    width: 80%;
+    margin: -2em 3em 2em;
+    max-width: 80%
+
+    
