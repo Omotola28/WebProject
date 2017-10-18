@@ -1,2 +1,2 @@
 # webProject
-Static pages using html and css 
+Static pages using html and css, media queries where used to make website responsive. HTML and CSS validated 
